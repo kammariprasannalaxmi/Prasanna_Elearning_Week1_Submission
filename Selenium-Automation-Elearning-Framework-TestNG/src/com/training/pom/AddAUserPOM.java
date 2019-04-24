@@ -64,14 +64,13 @@ import org.openqa.selenium.support.ui.Select;
 		private WebElement Add;
 		
 		
-		
 		@FindBy (linkText="User list")
 		private WebElement Userlist;
 		
 		@FindBy (xpath="//*[@id=\"search_simple_keyword\"]")
 		private WebElement keyword;
 	
-		@FindBy (xpath="//button[@id='search_simple_submit']")
+		@FindBy (xpath="//*[@id='search_simple_submit']")
 		private WebElement Search;
 		
 		public void selectdropdown()

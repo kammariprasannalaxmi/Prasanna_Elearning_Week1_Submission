@@ -22,7 +22,7 @@ public class LoginPOM {
 	@FindBy(id="formLogin_submitAuth")
 	private WebElement loginBtn; 
 	
-	@FindBy(xpath="//div[@id='menuone']/ul[2]/li[2]/a")
+	@FindBy(xpath="//*[@id='menuone']/ul[2]/li[2]/a")
 	private WebElement userDropDown;
 	
 	@FindBy(id="logout_button")

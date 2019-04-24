@@ -1,29 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81100" started-at="2019-01-16T11:39:55Z" finished-at="2019-01-16T11:41:17Z">
+  <suite name="Default suite" duration-ms="47" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81100" started-at="2019-01-16T11:39:55Z" finished-at="2019-01-16T11:41:17Z">
-      <class name="com.training.sanity.tests.AddAUser">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AddAUser@47c62251]" name="setUpBeforeClass" is-config="true" duration-ms="22" started-at="2019-01-16T11:39:55Z" finished-at="2019-01-16T11:39:55Z">
+    <test name="Default test" duration-ms="47" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
+      <class name="com.training.sanity.tests.learningTestNG">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.AddAUser@47c62251]" name="setUp" is-config="true" duration-ms="13128" started-at="2019-01-16T11:39:55Z" finished-at="2019-01-16T11:40:09Z">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validViewDetailsofUser()[pri:1, instance:com.training.sanity.tests.AddAUser@47c62251]" name="validViewDetailsofUser" duration-ms="65948" started-at="2019-01-16T11:40:09Z" finished-at="2019-01-16T11:41:15Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validViewDetailsofUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AddAUser@47c62251]" name="tearDown" is-config="true" duration-ms="1975" started-at="2019-01-16T11:41:15Z" finished-at="2019-01-16T11:41:17Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.AddAUser -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="f" duration-ms="6" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="f1" duration-ms="2" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.sanity.tests.learningTestNG@42d80b78]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-04-24T07:59:04Z" finished-at="2019-04-24T07:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.training.sanity.tests.learningTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

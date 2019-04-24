@@ -75,6 +75,7 @@ public class AddAUser {
 		AddAUserPOM.selectdropdown();
 		Thread.sleep(5000);
 		AddAUserPOM.clickAdd();
+		
 		Thread.sleep(5000);
 			//to check if the user is present in the userlist
 			AddAUserPOM.clickAdministration();
